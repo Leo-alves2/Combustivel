@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "combustivel"
+version = "0.1.0"
+description = ""
+authors = ["Leo-alves2 <leo.alves.b.vieira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+pandas = "^2.2.3"
+altair = "^5.4.1"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
