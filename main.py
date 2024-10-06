@@ -23,7 +23,9 @@ colunasUteis = ['MÊS', 'PRODUTO', 'REGIÃO', 'ESTADO', 'PREÇO MÉDIO REVENDA']
 df = df[colunasUteis]
 
 with st.sidebar:
-    st.header('Leonardo Vieira')
+    st.subheader('PL Data Analysis')
+    logo = Image.open('LogoPL.png')
+    st.image(logo, use_column_width=True)
     st.subheader('Seleção de Filtros')
     fProduto = st.selectbox(
         'Selecione o combustível',
